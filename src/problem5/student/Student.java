@@ -26,5 +26,15 @@ public class Student {
                 '}';
     }
 
+    public int getRoll() {
+        return roll;
+    }
 
+    public int getA_count() {
+        return a_count;
+    }
+
+    public int getBacklog() {
+        return backlog;
+    }
 }
