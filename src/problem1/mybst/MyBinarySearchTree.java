@@ -83,5 +83,11 @@ public class MyBinarySearchTree {
         }
     }
 
+    public void preVSpost() {
+        postorder(root);
+        System.out.println();
+        preorder(root);
+    }
+
 
 }
