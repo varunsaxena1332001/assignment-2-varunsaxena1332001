@@ -89,5 +89,7 @@ public class MyBinarySearchTree {
         preorder(root);
     }
 
-
+    public TreeNode getroot() {
+        return root;
+    }
 }
