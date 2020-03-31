@@ -8,6 +8,7 @@ package problem3.node;
 
 
 public class Node {
+
     String name;
     int roll;
     Node next;
