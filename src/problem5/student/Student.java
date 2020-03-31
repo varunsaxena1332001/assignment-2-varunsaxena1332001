@@ -25,7 +25,6 @@ public class Student {
                 ", a_count=" + a_count +
                 '}';
     }
-
     public int getRoll() {
         return roll;
     }
