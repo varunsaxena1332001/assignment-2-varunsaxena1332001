@@ -59,5 +59,9 @@ public class MyBinarySearchTree {
         LeftNode(root);
     }
 
+    public void countNotLeft() {
+        System.out.println(count);
+    }
+
 
 }
