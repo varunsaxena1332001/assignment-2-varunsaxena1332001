@@ -74,4 +74,14 @@ public class MyBinarySearchTree {
     }
 
 
+    public void postorder(TreeNode root) {
+        if (root == null) return;
+        else {
+            postorder(root.getLeft());
+            postorder(root.getRight());
+            System.out.print(root.getdata() + "\t");
+        }
+    }
+
+
 }
