@@ -28,4 +28,12 @@ public class MyQueue {
             this.next = next;
         }
     }
+
+    Node front;
+    Node rear;
+
+    public MyQueue() {
+        front = null;
+        rear = null;
+    }
 }
