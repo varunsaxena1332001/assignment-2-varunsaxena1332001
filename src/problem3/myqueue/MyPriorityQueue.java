@@ -41,6 +41,7 @@ public class MyPriorityQueue {
         while (temp != null) {
             System.out.println(temp.getName() + "\t" + temp.getRoll());
             temp = temp.getNext();
+
         }
     }
 }
