@@ -19,5 +19,6 @@ public class MyMain {
         obj.insert("pranjul", 2);
         obj.insert("jalanki", 5);
         obj.display();
+
     }
 }
