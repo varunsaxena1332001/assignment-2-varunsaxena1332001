@@ -21,6 +21,7 @@ public class TreeNode {
     }
 
     public TreeNode getLeft() {
+
         return left;
     }
 
